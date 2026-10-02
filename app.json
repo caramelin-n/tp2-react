@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Comedor IPF",
+    "slug": "comedor-ipf",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.svg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#F9FAFB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ipf.comedor"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.svg",
+        "backgroundColor": "#F9FAFB"
+      },
+      "package": "com.ipf.comedor"
+    },
+    "web": {
+      "favicon": "./assets/favicon.svg"
+    },
+    "scheme": "comedoripf",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
